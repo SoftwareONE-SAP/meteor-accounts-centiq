@@ -1,6 +1,7 @@
 Package.describe({
   summary: "Login service for Centiq accounts",
-  version: "1.0.0"
+  version: "1.0.1",
+  git : "https://bitbucket.org/centiq-ltd/meteor-package-accounts-centiq"
 });
 
 Package.onUse(function(api) {
