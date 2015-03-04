@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Login service for Centiq accounts",
-  version: "1.0.2",
+  version: "1.0.3",
   git : "https://github.com/Centiq/meteor-accounts-centiq"
 });
 
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('centiq:centiq@1.0.2', ['client', 'server']);
+  api.use('centiq:centiq@1.0.3', ['client', 'server']);
 
   api.addFiles('accounts-centiq_login_button.css', 'client');
 
